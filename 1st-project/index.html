@@ -10,5 +10,46 @@
     <center>
     <h1>Sample Collaboration</h1>
     </center>
+
+    <form action="submit.php" method="post">
+    <!-- Text Input -->
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <!-- Email Input -->
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <!-- Password Input -->
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required>
+
+    <!-- Radio Buttons -->
+    <p>Gender:</p>
+    <label for="male">Male</label>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="female">Female</label>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="other">Other</label>
+    <input type="radio" id="other" name="gender" value="other">
+
+    <!-- Checkbox -->
+    <p>Select your interests:</p>
+    <label for="interests1">Interest 1</label>
+    <input type="checkbox" id="interests1" name="interests[]" value="interest1">
+    <label for="interests2">Interest 2</label>
+    <input type="checkbox" id="interests2" name="interests[]" value="interest2">
+    <label for="interests3">Interest 3</label>
+    <input type="checkbox" id="interests3" name="interests[]" value="interest3">
+
+    <!-- Textarea -->
+    <p>Comments:</p>
+    <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
+
+    <!-- Submit Button -->
+    <br>
+    <input type="submit" value="Submit">
+</form>
+
 </body>
 </html>
