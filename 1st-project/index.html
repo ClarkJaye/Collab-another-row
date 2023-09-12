@@ -8,8 +8,46 @@
 </head>
 <body>
     <center>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                text-align: center;
+                background-color: #f0f0f0;
+            }
+    
+            h2 {
+                color: black;
+                margin-top: 50px;
+                font-size: 25px;
+            }
+    
+            table {
+                border-collapse: collapse;
+            }
+    
+            th,
+            td {
+                padding: 10px;
+                border: 1px solid #ccc;
+            }
+            .btn {
+                padding: 5px;
+                font-size: 15px;
+                font-weight: bold;
+            }
+        </style>
     <h1>Sample Collaboration</h1>
-    <p>Hi, I'm Carmel</p>
+
+    <h1 style="margin-bottom: 25px;">MULTIPLICATION TABLE (Rows & Columns)</h1>
+    <form method="get" action="table.php">
+        Enter first Number (column): <input type="number" name="num1"
+            style="margin-bottom: 20px; margin-right: 15px;">
+        Enter second Number (row): <input type="number" name="num2"><br>
+        <input class="btn" type="submit" value="Submit">
+    </form>
+    
+
+    <p>Hi, I'm Carmel. It's nice to work with you guys.</p>
     </center>
 </body>
 </html>
